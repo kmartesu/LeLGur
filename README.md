@@ -14,11 +14,11 @@ so don't wonder if loading or uploading pictures takes a while.
 There might be no pictures in the database when you open the application, this is because the application
 might been a sleep before you used it (this emtpies the DB).
 
-The features are limited to:
+Features:
  - uploading a picture
  - pictures having own pages
  - commenting on pictures
- - works bad on mobile
+ - works now better on mobile
 
 Acces the application via: https://stark-falls-2484.herokuapp.com
 
