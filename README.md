@@ -18,6 +18,7 @@ The features are limited to:
  - uploading a picture
  - pictures having own pages
  - commenting on pictures
+ - works bad on mobile
 
 Acces the application via: https://stark-falls-2484.herokuapp.com
 
