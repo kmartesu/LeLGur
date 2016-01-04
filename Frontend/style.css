@@ -2,40 +2,20 @@
     padding-left: 5em;
 }
 
-.form {
-    padding-left: 5em;
-    padding-right: 100em;
-}
-
-.singlePicture {
-    padding-left: 5em;
-    padding-right: 80em;
-}
-
-.commentSection {
-    padding-left: 5em;
-    padding-right: 80em;
-}
-
-.writeComment {
-    position: fixed;
-    padding-right: 10em;
-    width: 50em;
-    bottom: 0;
-    right: 25em;
-}
-
 h3 {
     position:relative;
     padding-left: 3em;
-    
 }
 
-.pictures {
-    padding-left: 5em;
-    padding-right: 100em;
-    border-width: 2em;
+.headerCenter {
+    text-align: center;
 }
+
+img.imgCentered {
+    display: block;
+    margin: 0 auto;
+}
+
 
 .btn-file {
     position: relative;
@@ -55,4 +35,44 @@ h3 {
     background: white;
     cursor: inherit;
     display: block;
+}
+
+.form {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.singlePicture {
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.commentSection {
+    padding-left: 5em;
+    padding-right: 50%;
+}
+
+.writeComment {
+    position: fixed;
+    padding-right: 5em;
+    width: 40%;
+    bottom: 0;
+    right: 5em;
+}
+
+.pictures {
+    padding-left: 5em;
+    padding-right: 5em;
+    border-width: 2em;
+}
+
+@media screen and (max-width: 800px) {
+    img{
+        width: 50%;
+    }   
+    
+    .writeComment {
+        padding-right: 0em;
+        right: 0em;
+    }
 }
