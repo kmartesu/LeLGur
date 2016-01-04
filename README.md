@@ -24,3 +24,6 @@ Acces the application via: https://stark-falls-2484.herokuapp.com
 
 Frontend Heroku url: https://stark-falls-2484.herokuapp.com
 Backend Heroku url: https://aqueous-escarpment-7261.herokuapp.com/
+
+-------------------------------------------------------------------------------------------------
+
