@@ -1,0 +1,14 @@
+wad\service\CommentService.class
+wad\profiles\DevProfile.class
+wad\controller\DefaultController.class
+wad\service\ThumbnailMaker.class
+wad\repository\CommentRepository.class
+wad\service\ImageService.class
+wad\Application.class
+wad\domain\AbstractUUIDPersistable.class
+wad\repository\ImageRepository.class
+wad\domain\Comment.class
+wad\domain\FileObject.class
+wad\repository\FileObjectRepository.class
+wad\profiles\ProdProfile.class
+wad\domain\Image.class

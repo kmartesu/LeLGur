@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LeLGur</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body ng-app="LeLGurApp">
+        <div class="page-header">
+            <a href="#/"><h1>LeLGur</h1></a>
+        </div>
+        
+        
+        <div ng-view>
+        </div>
+        
+        <!-- Scripts -->
+        <!-- bower components | Libraries -->
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <script src="bower_components/angular-route/angular-route.min.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        
+        <!-- app components -->
+        <script src="app/app.js"></script>
+        <script src="app/services/APIService.js"></script>
+        <script src="app/controllers/getPicturesController.js"></script>
+        <script src="app/controllers/getSinglePictureController.js"></script>
+    </body>
+</html>

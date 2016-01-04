@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Single picture</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- Section that displays the picture -->
+        <section class="singlePicture">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h1>{{picture.name}}</h1>
+                </div>
+                <div class="panel-body">
+                    <p>{{message}}</p>
+                    <img ng-src="data:image/JPEG;base64,{{picture.file.content}}">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section that displays number of comments and displays the comments -->
+        <section class="commentSection">
+            <h3>{{nrOfComments}} 
+                <ng-pluralize count="nrOfComments"
+                 when="{'one': 'comment',
+                     'other': 'comments'}">
+                </ng-pluralize>
+            </h3>
+            
+            <div ng-repeat="comment in comments">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4>{{comment.poster}}</h4>
+                    </div>
+                    <div class="panel-body">
+                        <p>{{comment.content}}</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Section with the form for posting a comment -->
+        <section class="writeComment">
+            <div class="panel panel-default">
+                <div class="panel-heading">Write a comment</div>
+                <div class="panel-body">
+                    <form>
+                        <label>Nickname</label>
+                        <input class="form-control" name="commentPoster" type="text" ng-model="comment.poster">
+                        <label>Content</label>
+                        <textarea class="form-control" name="commentContent" type="text" ng-model="comment.content"></textarea>
+                        <br>
+                        <button class="btn btn-primary" ng-click="postComment()">Comment!</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

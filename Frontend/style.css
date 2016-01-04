@@ -1,0 +1,58 @@
+.page-header {
+    padding-left: 5em;
+}
+
+.form {
+    padding-left: 5em;
+    padding-right: 100em;
+}
+
+.singlePicture {
+    padding-left: 5em;
+    padding-right: 80em;
+}
+
+.commentSection {
+    padding-left: 5em;
+    padding-right: 80em;
+}
+
+.writeComment {
+    position: fixed;
+    padding-right: 10em;
+    width: 50em;
+    bottom: 0;
+    right: 25em;
+}
+
+h3 {
+    position:relative;
+    padding-left: 3em;
+    
+}
+
+.pictures {
+    padding-left: 5em;
+    padding-right: 100em;
+    border-width: 2em;
+}
+
+.btn-file {
+    position: relative;
+    overflow: hidden;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: white;
+    cursor: inherit;
+    display: block;
+}
